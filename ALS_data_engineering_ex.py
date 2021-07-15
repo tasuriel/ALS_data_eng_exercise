@@ -4,9 +4,8 @@ import sys
 import os
 
 #Get working directory as input and set it
-# if len(sys.argv) == 2:
-#     working_dir = sys.argv[1]
-working_dir = '/Users/tsuriel/Desktop/ALS_data_engineering'
+if len(sys.argv) == 2:
+    working_dir = sys.argv[1]
 working_dir = working_dir + "/"
 os.chdir(working_dir)
 
